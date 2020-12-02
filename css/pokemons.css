@@ -1,0 +1,135 @@
+html, body
+{
+    height: 100%;
+    margin-top: 0px;
+}
+
+div{
+    /* position: sticky; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.pidgey {
+    background-color: khaki;
+}
+
+.squirtle{
+    background-color: lightblue;
+}
+.pikachu{
+    background-color: #ece87b;
+}
+.doduo{
+    background-color: rgb(110, 82, 82);
+}
+
+.sentret{
+    background-color: burlywood;
+}
+
+.togepy{
+    background-color: beige;
+}
+
+@media screen and (min-width:100px){
+    .pokemon{
+        height: 200px;
+    }
+   .pidgey{
+        background-image: url("../img/pokemons/pidgey.png");
+   }
+   .squirtle{
+        background-image: url("../img/pokemons/squirtle.png");
+   }
+   .pikachu{
+        background-image: url("../img/pokemons/pichu.webp");
+   }
+
+   .doduo{
+        background-image: url("../img/pokemons/doduo.png");
+   }
+
+   .sentret{
+        background-image: url("../img/pokemons/sentret.png");
+    }
+
+    .togepy{
+        background-image: url("../img/pokemons/togepy.png");
+    }
+}
+
+@media screen and (min-width:400px){
+    .pokemon{
+        height: 300px;
+    }
+    .pidgey{
+        background-image: url("../img/pokemons/Pidgeotto.png");
+    }
+
+    .squirtle{
+        background-image: url("../img/pokemons/wartortle.png");
+
+   }
+
+   .pikachu{
+        background-image: url("../img/pokemons/pikachu.png");
+    }
+
+    .doduo{
+        width: 50%;
+        background-image: url("../img/pokemons/dodrio.png");
+   }
+
+   .sentret{
+         width: 50%;
+        background-image: url("../img/pokemons/furret.png");
+    }
+
+    .togepy{
+        background-image: url("../img/pokemons/togetic.png");
+    }
+
+    .fila{
+        display: flex;
+        flex-flow: row;
+    }
+}
+
+@media screen and (min-width:800px){
+    div{
+     background-attachment:fixed;
+    }
+    .pokemon{
+        height: 100%;
+    }
+
+    .pidgey{
+        background-image: url("../img/pokemons/pidgeot.png");
+    }
+    .squirtle{
+        background-image: url("../img/pokemons/blastoise.png");
+   }
+
+   .pikachu{
+        background-image: url("../img/pokemons/raichu.png");
+    }
+    .doduo{
+        width: 100%;
+        background-image: url("../img/pokemons/dodrio.png");
+   }
+
+   .sentret{
+         width: 100%;
+        background-image: url("../img/pokemons/furret.png");
+    }
+    .togepy{
+        background-image: url("../img/pokemons/togekiss.png");
+    }
+
+    .fila{
+        display:contents;
+    }
+}
